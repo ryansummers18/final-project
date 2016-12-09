@@ -1,5 +1,26 @@
 article{
-  margin: auto;
-  width:90%;
-  background: #fff;
+  margin: 10px 10px;
+  background: #f0f0f0;
+}
+
+#myCarousel{
+  max-width: 600px;
+  max-height: 800px;
+  float: left;
+  margin-bottom: 10px;
+}
+
+#container2{
+  float: left;
+  max-width: 600px;
+}
+
+#container4{
+  margin-top: 10px;
+}
+
+@media screen and (max-device-width: 480px) {
+  article{
+    margin: 0;
+  }
 }
