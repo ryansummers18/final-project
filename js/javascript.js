@@ -223,7 +223,7 @@ Highcharts.chart('chart3', {
             },
 
             subtitle: {
-                text: 'Stats via Maxpreps.com'
+                text: 'Compare the teams by CLICKING the colored circle of the team you would like to choose.'
             },
 
             legend: {
