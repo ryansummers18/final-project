@@ -19,6 +19,11 @@ article{
   margin-top: 10px;
 }
 
+#chart3 {
+	height: 400px;
+	min-width: 310px;
+}
+
 @media screen and (max-device-width: 480px) {
   article{
     margin: 0;

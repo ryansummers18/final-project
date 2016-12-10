@@ -222,3 +222,54 @@ Highcharts.chart('chart2', {
               data: [1449, 1648, 1391, 791]
           }]
       });
+
+Highcharts.chart('chart3', {
+
+            chart: {
+                type: 'column'
+            },
+
+            title: {
+                text: 'Team Defensive stats (Via: Maxpreps)'
+            },
+
+            subtitle: {
+                text: 'Stats via Maxpreps.com'
+            },
+
+            legend: {
+                align: 'right',
+                verticalAlign: 'middle',
+                layout: 'vertical'
+            },
+
+            xAxis: {
+                categories: ['Sacks', 'Interceptions', 'Tackles for Loss', 'Fumble Recoveries'],
+                labels: {
+                    x: -10
+                }
+            },
+
+            yAxis: {
+                allowDecimals: false,
+                title: {
+                    text: 'Total'
+                }
+            },
+
+            series: [{
+                name: 'Hawthorne',
+                data: [14, 6, 38, 16]
+            }, {
+                name: 'Union County',
+                data: [22, 7, 65, 6]
+            }, {
+                name: 'Gainesville',
+                data: [23, 5, 33, 7]
+            },{
+                name: 'Trenton',
+                data: [5, 4, 23, 3]
+            }],
+
+
+        });
