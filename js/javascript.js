@@ -6,7 +6,7 @@ Highcharts.chart('chart', {
       text: 'Alachua County Varsity Football 2016: Rushing Stats'
     },
     subtitle: {
-      text: 'Click the columns to view versions.'
+      text: 'Click the columns to EXPAND the information.'
     },
     xAxis: {
       type: 'category'
@@ -211,7 +211,7 @@ Highcharts.chart('chart2', {
               y: 80,
               floating: true,
               borderWidth: 1,
-              backgroundColor: ((Highcharts.theme && Highcharts.theme.legendBackgroundColor) || '#FFFFFF'),
+              backgroundColor: ((Highcharts.theme && Highcharts.theme.legendBackgroundColor) || '#F0F0F0'),
               shadow: true
           },
           credits: {
@@ -230,7 +230,7 @@ Highcharts.chart('chart3', {
             },
 
             title: {
-                text: 'Team Defensive stats (Via: Maxpreps)'
+                text: 'Team Defensive stats'
             },
 
             subtitle: {
