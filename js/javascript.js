@@ -203,17 +203,6 @@ Highcharts.chart('chart2', {
                   }
               }
           },
-          legend: {
-              layout: 'vertical',
-              align: 'right',
-              verticalAlign: 'top',
-              x: -40,
-              y: 80,
-              floating: true,
-              borderWidth: 1,
-              backgroundColor: ((Highcharts.theme && Highcharts.theme.legendBackgroundColor) || '#F0F0F0'),
-              shadow: true
-          },
           credits: {
               enabled: false
           },
